@@ -1,4 +1,4 @@
-//Podemos definir functiones nosotros mismos.
+//Podemos definir funciones nosotros mismos.
 // Aquí por ejemplo una función que muestra por consola un mensaje
 
 function muestraPorConsola() {

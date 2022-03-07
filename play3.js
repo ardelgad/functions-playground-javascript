@@ -34,8 +34,8 @@ console.log("Suma 1", res)
 
  let numero1 = 5
  let numero2 = 10
- let otroResultado = suma(numero1, numero2)
- console.log("Suma 2: ". otroResultado)
+  res = suma(numero1, numero2)
+ console.log("Suma 2: ", res)
 
  // Fijaos que aquí vemos una de las grandes ventajas de las funciones. Estamos REUTILIZANDO un código en varias partes de nuestro script; pero que se comporta de manera diferente en función del valor de los parámetros que le pasamos (sí, esta función es muy tontita y podríamos hacer 5 + 10! Es solo un ejemplo)
 
@@ -45,8 +45,8 @@ console.log("Suma 1", res)
 
   let a = 5
   let b = 10
-  let resultado = suma(a,b)
-  console.log("Suma 3: ". resultado)
+  res = suma(a,b)
+  console.log("Suma 3: ", res)
 
   /**
    * Investiga la función 'suma'. ¿Cómo es posible que usamos el mismo nombre 'a' y 'b' para declarar las variables, y no obtenemos ningún error? También declaramos la variable 'resultado', la cúal también se declara dentro de la función!
@@ -72,7 +72,7 @@ console.log("Suma 1", res)
      
      resta(1, 2)
      console.log(resultado_resta) // Va a dar 'undefined'. En este punto el script no tiene ni idea donde esta definida la variable 'resultado_resta'; pues no está definida en su ámbito o scope
-     
+
 
 
 

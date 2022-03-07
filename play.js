@@ -1,6 +1,6 @@
 // JavaScript define varias funciones globales
 // por ejemplo la función 'parseInt'. 
-// Esta función toma por agumento un valor.
+// Esta función toma por argumento un valor.
 // Transforma el valor del string en un number
 
 let soyUnString = '123';
@@ -19,4 +19,4 @@ console.log(myText);
 
 // No solo eso. JavaScript define muchas funciones en "variables" globales para poder usar.
 let numeroAleatorio = Math.random()
-console.log("Número aleatorio entre 0 y 1")
+console.log("Número aleatorio entre 0 y 1" + numeroAleatorio)
